@@ -1,11 +1,10 @@
-class Pawn
+require_relative 'piece'
+
+class Pawn < Piece
   attr_reader :captured, :team, :location, :moved, :directions
 
   def initialize(team, location)
-    @captured = false
-    @team = team
-    @location = location
-    @moved = false
+    super(team, location)
     
     @directions = [
       [1,0],
