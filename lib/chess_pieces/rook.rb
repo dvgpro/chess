@@ -1,4 +1,4 @@
-class Rook
+class Rook < Pieces
   def initialize
     
   end

@@ -1,4 +1,4 @@
-class Bishop
+class Bishop < Pieces
   def initialize
     
   end

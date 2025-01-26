@@ -1,4 +1,4 @@
-class Queen < Pieces
+class ChessGame
   def initialize
     
   end

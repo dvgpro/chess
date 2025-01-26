@@ -1,4 +1,4 @@
-class Knight
+class Knight < Pieces
   def initialize
     
   end
