@@ -3,6 +3,7 @@ class Piece
     @captured = false
     @team = team
     @location = location
+    @init_location = location
     @moved = false
     
   end
